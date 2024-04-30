@@ -1,0 +1,26 @@
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h3{
+    font-size: 25px !important;
+}
+.btn-success:hover{
+    background-color: rgb(217, 74, 2);
+}
+.btn-info:hover{
+    background-color: cadetblue;
+}
+canvas{
+    animation-name: ejemplo;
+    animation-duration: 4s ;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes ejemplo{
+    from{box-shadow: 5px 5px 50px green;}
+    to{box-shadow: 5px 5px 100px rgb(128, 0, 128);}
+
+}
+
